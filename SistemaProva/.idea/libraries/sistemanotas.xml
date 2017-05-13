@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sistemanotas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/sistemanotas.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

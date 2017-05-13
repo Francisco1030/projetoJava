@@ -1,0 +1,23 @@
+﻿create database prova;
+use prova;
+
+create table professor(		
+idProf int not null auto_increment,
+nomeProf varchar(60) not null,
+loginProf varchar(30) not null unique,
+senhaProf varchar(30) not null,
+areaProf varchar(40),
+primary key (idProf)
+) default charset = utf8;
+
+
+
+
+create table aluno(		
+idAluno int not null auto_increment,
+nomeAluno varchar(60) not null,
+loginAluno varchar(30) not null unique,
+senhaAluno varchar(30) not null,
+turmaAluno varchar(8),
+primary key (idAluno)
+) default charset = utf8;
